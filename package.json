@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@discordjs/collection": "^0.1.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs-nextra": "^0.5.1",
+    "mineflayer": "https://github.com/PrismarineJS/mineflayer",
+    "node-fetch": "^2.6.1",
+    "ws": "^7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  },
+  "name": "minecraftafkbot",
+  "version": "1.16.4",
+  "description": "A class-ified wrapper for mineflayer, used to afk farms on my current minecraft server. Everything is in beta and can be changed at any time.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "Kashalls",
+  "license": "MIT",
+  "repository": "https://github.com/Kashalls/MinecraftAFKBot",
+  "private": false
+}

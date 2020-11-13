@@ -1,0 +1,19 @@
+module.exports = {
+    // Enter your url to your bandwidth api proxy, leave empty to disable.
+	SMS_PROXY_DOMAIN: '',
+    // Your minecraft server details.
+	SERVER: {
+		HOST: '127.0.0.1',
+		PORT: 25565
+	},
+	LOGIN: [
+		{
+			username: 'Username or Email',
+			password: 'YourPassword'
+		},
+		{
+			username: 'Username or Email#2',
+			password: 'YourPassword#2'
+		}
+	]
+};
