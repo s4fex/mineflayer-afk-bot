@@ -7,6 +7,7 @@ class Spawn extends Event {
 		this.client.console.log('Bot ready! Going afk...');
 		this.client.bot.setControlState('jump', true);
 		setTimeout(() => this.client.bot.setControlState('jump', false), 500);
+		this.client.chat('/survival');
 		this.client.chat('/afk');
 	}
 
