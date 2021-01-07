@@ -24,5 +24,8 @@
   "author": "Kashalls",
   "license": "MIT",
   "repository": "https://github.com/Kashalls/MinecraftAFKBot",
-  "private": false
+  "private": false,
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
