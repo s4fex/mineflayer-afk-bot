@@ -12,7 +12,7 @@
     "eslint": "^7.12.1",
     "eslint-config-kashall": "Kashalls/kashall-lint"
   },
-  "name": "minecraftafkbot",
+  "name": "@kashalls/minecraftafkbot",
   "version": "1.16.4",
   "description": "A class-ified wrapper for mineflayer, used to afk farms on my current minecraft server. Everything is in beta and can be changed at any time.",
   "main": "src/index.js",
