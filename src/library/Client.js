@@ -11,7 +11,6 @@ const CommandStore = require('./Structures/CommandStore');
 const EventStore = require('./Structures/EventStore');
 
 // utilities
-const Bandwidth = require('./Extensions/Bandwidth');
 const AutoEat = require('./Extensions/AutoEat');
 
 const Util = require('./Util/Util');
