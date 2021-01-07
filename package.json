@@ -19,7 +19,6 @@
   "scripts": {
     "run": "node .",
     "test": "eslint .",
-    "install": "npm i --production",
     "yarn:install": "yarn install"
   },
   "author": "Kashalls",
