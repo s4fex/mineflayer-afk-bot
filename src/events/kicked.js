@@ -13,9 +13,6 @@ class Kicked extends Event {
 		console.log(`[${this.client.USERNAME}] I got kicked from the server. (LoggedIn: ${authenticated})\nReason: ${message}`);
 
 		if (!authenticated) return;
-		// todo: remove todo from eslint
-		// todo: implement bandwidth api
-		// if (!message.includes('Restarting')) sendMessage(`[Kicked] (${client.username}): ${message}`);
 	}
 
 }
