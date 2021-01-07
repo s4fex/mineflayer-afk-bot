@@ -17,7 +17,10 @@
   "description": "A class-ified wrapper for mineflayer, used to afk farms on my current minecraft server. Everything is in beta and can be changed at any time.",
   "main": "src/index.js",
   "scripts": {
-    "test": "node ."
+    "run": "node .",
+    "test": "eslint .",
+    "install": "npm i --production",
+    "yarn:install": "yarn install"
   },
   "author": "Kashalls",
   "license": "MIT",
