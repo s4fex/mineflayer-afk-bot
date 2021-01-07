@@ -60,17 +60,18 @@ class AutoEat {
 			foodsInInventory.find((item) => item.foodPoints === lodash.maxBy(foodsInInventory, 'foodPoints'));
 
 		this.bot.emit('autoeat-start');
-		this.bot.equip(bestFood, 'hand', (error) => {
+		return this.bot.equip(bestFood, 'hand', (error) => {
 			if (error) {
 				this.eating = false;
 				this.bot.emit('autoeat-stop');
 				return this.bot.emit('error', error);
 			} else {
-				this.bot.consume((err) => {
+				return this.bot.consume((err) => {
 					this.bot.emit('autoeat-stop');
 					this.eating = false;
 					if (err) return this.bot.emit('error', err);
 					else if (this.bot.food !== 20) return this.eat();
+					return true;
 				});
 			}
 		});
