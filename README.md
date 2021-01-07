@@ -19,6 +19,11 @@
 yarn install
 ```
 
+```sh
+cp src/config.js.rename src/config.js 
+```
+Edit that config. 
+
 ## Usage
 
 ```sh

@@ -1,19 +1,11 @@
+// Everything in this file will be passed into the bot under this.client.options
+
+
 module.exports = {
-    // Enter your url to your bandwidth api proxy, leave empty to disable.
-	SMS_PROXY_DOMAIN: '',
-    // Your minecraft server details.
-	SERVER: {
-		HOST: '127.0.0.1',
-		PORT: 25565
-	},
-	LOGIN: [
-		{
-			username: 'Username or Email',
-			password: 'YourPassword'
-		},
-		{
-			username: 'Username or Email#2',
-			password: 'YourPassword#2'
-		}
-	]
+	host: 'play.eternal.gs',
+    port: 25565,
+    username: '',
+    password: '',
+	// Use mojang for yggdrasil login, microsoft for Microsoft login
+	auth: 'mojang'
 };
