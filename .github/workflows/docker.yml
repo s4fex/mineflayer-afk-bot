@@ -59,9 +59,9 @@ jobs:
       - name: Log into Dockerhub
         run: echo "${{ secrets.DOCKER_TOKEN }}" | docker login -u kashall --password-stdin
 
-      - name: Push image to GPR
+      - name: Push image to GHCR
         run: |
-          IMAGE_ID=ghcr.io/kashall/$IMAGE_NAME
+          IMAGE_ID=ghcr.io/kashalls/$IMAGE_NAME
           
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
