@@ -53,6 +53,9 @@ class Util {
 		return input && input.constructor === Object;
 	}
 
+	static isFunction(input) {
+		return typeof input === 'function';
+	}
 
 }
 

@@ -13,11 +13,9 @@ const Constants = {
 		host: '127.0.0.1',
 		port: 25565,
 		version: '1.16.4',
-		logErrors: true,
-		hideErrors: true,
-		keepAlive: true,
-		checkTimeoutInterval: 30 * 1000,
 		loadInternalPlugins: true,
+		// Bucket is used to run commands on spawn. If you want to chat, enter a string. If you want to preform an action, use a function. ((client) => client.chat('HEY, LISTEN!'));
+		bucket: [],
 		pieceDefaults: {
 			commands: {
 				description: ''
