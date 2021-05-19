@@ -1,7 +1,11 @@
 const Client = require('./library/Client');
-const { MINECRAFT: { host, port, logins } } = require('../config');
+const config = require('../config');
 
-for (const user of logins) {
-	new Client({ ...user, host, port }).login();
+if (Array.isArray(config)) {
+	for (const user of config) {
+		console.log(`Trying: ${user.username} - Auth: ${user.auth}`);
+		new Client({ ...user }).login();
+	}
+} else {
+	new Client({ ...config }).login();
 }
-
