@@ -34,8 +34,6 @@ class MinecraftAFKBot extends EventEmitter {
 		this.commands = new CommandStore(this);
 		this.events = new EventStore(this);
 
-		// this.sms = new Bandwidth(this.options.SMS_PROXY_DOMAIN);
-
 		this.pieceStores = new Collection();
 
 		this.registerStore(this.commands)
