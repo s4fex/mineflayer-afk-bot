@@ -26,6 +26,6 @@
   "repository": "https://github.com/Kashalls/MinecraftAFKBot",
   "private": false,
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
