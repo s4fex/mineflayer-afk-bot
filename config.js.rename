@@ -2,8 +2,8 @@
 
 
 module.exports = {
-	host: 'play.eternal.gs',
-    port: 25565,
+	host: 'VitaMC1.aternos.me',
+    port: 53237,
     username: '',
     password: '',
 	// Use mojang for yggdrasil login, microsoft for Microsoft login
